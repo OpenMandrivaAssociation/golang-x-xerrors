@@ -41,3 +41,4 @@ BuildRequires:	compiler(go-compiler)
 %goinstall
 
 %files
+%{_datadir}/gocode/src/golang.org/x/xerrors/
