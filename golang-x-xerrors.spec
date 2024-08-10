@@ -32,7 +32,7 @@ BuildRequires:	compiler(go-compiler)
 %{common_description}
 
 %prep
-%autoseup -n xerrors-5ec99f83aff198f5fbd629d6c8d8eb38a04218ca -p1
+%autosetup -n xerrors-5ec99f83aff198f5fbd629d6c8d8eb38a04218ca -p1
 
 %install
 %gopkginstall
