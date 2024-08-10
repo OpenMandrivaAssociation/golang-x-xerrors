@@ -40,4 +40,4 @@ BuildRequires:	compiler(go-compiler)
 %install
 %goinstall
 
-%files devel -f devel.file-list
+%files
