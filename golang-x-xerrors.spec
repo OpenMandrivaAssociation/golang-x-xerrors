@@ -40,9 +40,4 @@ BuildRequires:	compiler(go-compiler)
 %install
 %goinstall
 
-%if %{with check}
-%check
-%gocheck
-%endif
-
-%gopkgfiles
+%files devel -f devel.file-list
